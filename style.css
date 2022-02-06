@@ -1,0 +1,103 @@
+/*font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.container{
+    background-color: #E4F9F5;
+    width: 75%;
+    margin: 0px auto;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.image{
+    float: left;
+}
+.image img{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.name{
+    float:left;
+    margin: 30px 0px 0px 20px;
+}
+.address{
+    float: right;
+    font-weight: bolder;
+    margin: 35px 0px 0px;
+}
+.address span a{
+       text-decoration: none;
+       color: teal;
+}
+.clear-div{
+    clear: both;
+}
+#headhr{
+    width: 100%;
+    border: 3px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+}
+#career-objective{
+    margin: 20px auto;
+}
+.contain{
+    margin-top: 30px;
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: right;
+    width: 70%;
+    text-align: justify;
+}
+.common-hr{
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+}
+.eduleft{
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+.eduright{
+    float: right;
+    width: 30%;
+    text-align: justify;
+}
+.right ul li{
+    list-style-position: inside;
+}
+#per li{
+    list-style-type: none;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+footer p{
+    margin-top: 20px;
+}
